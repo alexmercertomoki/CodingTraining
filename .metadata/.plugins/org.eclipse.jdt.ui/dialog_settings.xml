@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="JavaSE-1.6" key="org.eclipse.jdt.ui.last.selected.execution.enviroment"/>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="renameSubpackages"/>
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="*" key="patterns"/>
+		<item value="false" key="updateSimilarElements"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+		<item value="false" key="updateTextualMatches"/>
+	</section>
+	<section name="ProblemSeveritiesConfigurationBlock">
+		<item value="false" key="expanded2"/>
+		<item value="false" key="expanded1"/>
+		<item value="false" key="expanded4"/>
+		<item value="false" key="expanded3"/>
+		<item value="false" key="expanded6"/>
+		<item value="false" key="expanded5"/>
+		<item value="false" key="expanded7"/>
+		<item value="true" key="expanded0"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="0" key="DIALOG_Y_ORIGIN"/>
+			<item value="-32" key="DIALOG_X_ORIGIN"/>
+		</section>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
+		<item value="2" key="layout"/>
+		<item value="true" key="group_libraries"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1409429208739&quot;&gt;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0A;&lt;xmlDefinedFilters&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;com.google.gdt.eclipse.managedapis.ui.ManagedApiContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0A;&lt;/customFilters&gt;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
+		<item value="false" key="linkWithEditor"/>
+		<item value="1" key="rootMode"/>
+	</section>
+	<section name="NewClassWizardPage">
+		<item value="false" key="create_constructor"/>
+		<item value="true" key="create_unimplemented"/>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="45" key="DIALOG_Y_ORIGIN"/>
+			<item value="343" key="DIALOG_X_ORIGIN"/>
+		</section>
+	</section>
+	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
+		<item value="520" key="DIALOG_WIDTH"/>
+		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="639" key="DIALOG_HEIGHT"/>
+		<item value="367" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.text.QuickOutline">
+		<item value="true" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="350" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_WIDTH"/>
+		<item value="300" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_HEIGHT"/>
+		<item value="false" key="GoIntoTopLevelTypeAction.isChecked"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="/Users/mac/Documents/workspace/Project4Task2Googleapp/javadoc.xml" key="antpath"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/bin/javadoc" key="javadoc_command_history"/>
+		<item value="1.7" key="source"/>
+		<item value="true" key="version"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="/Users/mac/Desktop/project4 googleapp javadoc" key="destdir"/>
+		<item value="false" key="openinbrowser"/>
+		<section name="projects">
+			<section name="SocialNet">
+				<item value="/Users/mac/Documents/GitHub/bhuang/hw4/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/GitHub/bhuang/hw4/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CalculatorHw3">
+				<item value="/Users/mac/Documents/GitHub/bhuang/hw3/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/GitHub/bhuang/hw3/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="MySite">
+				<item value="/Users/mac/Documents/workspace/MySite/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/MySite/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="project2task1a">
+				<item value="/Users/mac/Documents/workspace/project2task1a/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/project2task1a/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="WeatherDemoCyh">
+				<item value="/Users/mac/Documents/Project/myEclipse/myEclipse/WeatherDemoCyh/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/Project/myEclipse/myEclipse/WeatherDemoCyh/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="DsBhuangLab">
+				<item value="/Users/mac/Documents/workspace/DsBhuangLab/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/DsBhuangLab/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="shoppingt">
+				<item value="/Users/mac/Downloads/shoppingt/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Downloads/shoppingt/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="RemoteSystemsTempFiles">
+				<item value="/Users/mac/Documents/workspace/RemoteSystemsTempFiles/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/RemoteSystemsTempFiles/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="HelpProject">
+				<item value="/Users/mac/Documents/workspace/HelpProject/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/HelpProject/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Servers2">
+				<item value="/Users/mac/Documents/workspace/Servers2/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/Servers2/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Project2Task4">
+				<item value="/Users/mac/Documents/workspace/Project2Task4/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/Project2Task4/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Man2.5">
+				<item value="/Users/mac/Documents/workspace/Man2.5/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/Man2.5/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="TwinPrimes">
+				<item value="/Users/mac/Documents/workspace/TwinPrimes/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/TwinPrimes/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Project2Task2">
+				<item value="/Users/mac/Documents/workspace/Project2Task2/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/Project2Task2/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Project2Task3">
+				<item value="/Users/mac/Documents/workspace/Project2Task3/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/Project2Task3/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Hello">
+				<item value="/Users/mac/Documents/workspace/Hello/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/Hello/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="atCmu">
+				<item value="/Users/mac/Documents/workspace/atCmu/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/atCmu/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ArrayListDemo">
+				<item value="/Users/mac/Documents/workspace/ArrayListDemo/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/ArrayListDemo/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="AmeliaLab">
+				<item value="/Users/mac/Documents/workspace/AmeliaLab/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/AmeliaLab/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="DSLAB">
+				<item value="/Users/mac/Documents/workspace/DSLAB/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/DSLAB/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Man3">
+				<item value="/Users/mac/Documents/workspace/Man3/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/Man3/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="DsLAB2Cus">
+				<item value="/Users/mac/Documents/workspace/DsLAB2Cus/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/DsLAB2Cus/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="LeetCode">
+				<item value="/Users/mac/Documents/workspace/LeetCode/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/LeetCode/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Project4Android">
+				<item value="/Users/mac/Documents/workspace/Project4Android/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Desktop/android javadoc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CMUHomework">
+				<item value="/Users/mac/Documents/workspace/CMUHomework/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/CMUHomework/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="hello1">
+				<item value="/Users/mac/Documents/workspace/hello1/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/hello1/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SecondTimeRoundLeet">
+				<item value="/Users/mac/Documents/workspace/SecondTimeRoundLeet/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/SecondTimeRoundLeet/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="_pasted_code_">
+				<item value="/Users/mac/Documents/workspace/_pasted_code_/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/_pasted_code_/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="BugTracker">
+				<item value="/Users/mac/Documents/workspace/BugTracker/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/BugTracker/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="LeetCode2">
+				<item value="/Users/mac/Documents/workspace/LeetCode2/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/LeetCode2/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Project4Task2Googleapp">
+				<item value="/Users/mac/Documents/workspace/Project4Task2Googleapp/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Desktop/project4 googleapp javadoc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Project9">
+				<item value="/Users/mac/Documents/workspace/Project9/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/Project9/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="topic">
+				<item value="/Users/mac/Downloads/topic/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Downloads/topic/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Strusts">
+				<item value="/Users/mac/Documents/workspace/Strusts/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/Strusts/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="DsLab2server2">
+				<item value="/Users/mac/Documents/workspace/DsLab2server2/javadoc.xml" key="antpath"/>
+				<item value="/Users/mac/Documents/workspace/DsLab2server2/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
+	<section name="JavaBuildConfigurationBlock">
+		<item value="false" key="expanded2"/>
+		<item value="false" key="expanded1"/>
+		<item value="true" key="expanded0"/>
+	</section>
+	<section name="SourceActionDialog.methods">
+		<item value="false" key="SynchronizedModifier"/>
+		<item value="false" key="Comments"/>
+		<item value="1" key="VisibilityModifier"/>
+		<item value="false" key="FinalModifier"/>
+	</section>
+	<section name="BreadcrumbItemDropDown">
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item value="0" key="index"/>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="0" key="pageIndex"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="NewPackageWizardPage">
+		<item value="false" key="create_package_info_java"/>
+	</section>
+	<section name="JavadocWizardDialog">
+		<item value="600" key="DIALOG_WIDTH"/>
+		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="534" key="DIALOG_HEIGHT"/>
+		<item value="322" key="DIALOG_X_ORIGIN"/>
+		<item value="1" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="AddGetterSetterDialog">
+		<item value="false" key="SortOrdering"/>
+		<item value="false" key="RemoveFinal"/>
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+</section>

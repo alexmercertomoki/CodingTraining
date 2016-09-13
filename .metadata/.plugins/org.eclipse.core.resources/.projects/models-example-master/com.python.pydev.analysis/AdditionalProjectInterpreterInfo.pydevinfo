@@ -1,0 +1,77 @@
+-- VERSION_4
+-- START DISKCACHE
+/Users/mac/Documents/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/models-example-master/com.python.pydev.analysis/v2_indexcache
+sample.models|1423618288000|/Users/mac/Documents/workspace/models-example-master/sample/models.py
+private.models|1423716985000|/Users/mac/Documents/workspace/models-example-master/private/models.py
+shared.admin|1423618288000|/Users/mac/Documents/workspace/models-example-master/shared/admin.py
+sample.tests|1423618288000|/Users/mac/Documents/workspace/models-example-master/sample/tests.py
+webapps.__init__|1423618288000|/Users/mac/Documents/workspace/models-example-master/webapps/__init__.py
+shared.models|1423618288000|/Users/mac/Documents/workspace/models-example-master/shared/models.py
+webapps.wsgi|1423618288000|/Users/mac/Documents/workspace/models-example-master/webapps/wsgi.py
+shared.urls|1423618288000|/Users/mac/Documents/workspace/models-example-master/shared/urls.py
+private.views|1423706045000|/Users/mac/Documents/workspace/models-example-master/private/views.py
+webapps.settings|1423673041000|/Users/mac/Documents/workspace/models-example-master/webapps/settings.py
+shared.__init__|1423618288000|/Users/mac/Documents/workspace/models-example-master/shared/__init__.py
+private.urls|1423618288000|/Users/mac/Documents/workspace/models-example-master/private/urls.py
+sample.__init__|1423618288000|/Users/mac/Documents/workspace/models-example-master/sample/__init__.py
+shared.views|1423707979000|/Users/mac/Documents/workspace/models-example-master/shared/views.py
+webapps.urls|1423618288000|/Users/mac/Documents/workspace/models-example-master/webapps/urls.py
+-- END DISKCACHE
+-- START DICTIONARY
+13
+5=sample.models
+6=private.models
+12=Student
+7=shared.models
+11=Item
+4=webapps.wsgi
+8=shared.urls
+2=private.views
+3=webapps.settings
+9=private.urls
+13=Course
+1=shared.views
+10=webapps.urls
+-- END DICTIONARY
+-- START TREE 1
+25
+!<m|0|
+add|2|add_item!10@add_item!18@
+all|1|ALLOWED_HOSTS!27@
+app|1|application!35@
+bas|1|BASE_DIR!27@
+cou|1|Course!41@
+dat|1|DATABASES!27@
+deb|1|DEBUG!27@
+del|2|delete_item!10@delete_item!18@
+hom|2|home!10@home!18@
+ins|1|INSTALLED_APPS!27@
+ite|2|Item!49@Item!57@
+lan|1|LANGUAGE_CODE!27@
+log|2|LOGIN_REDIRECT_URL!27@LOGIN_URL!27@
+mid|1|MIDDLEWARE_CLASSES!27@
+reg|1|register!18@
+roo|1|ROOT_URLCONF!27@
+sec|1|SECRET_KEY!27@
+sta|1|STATIC_URL!27@
+stu|1|Student!41@
+tem|1|TEMPLATE_DEBUG!27@
+tim|1|TIME_ZONE!27@
+url|3|urlpatterns!67@urlpatterns!75@urlpatterns!83@
+use|3|USE_L10N!27@USE_I18N!27@USE_TZ!27@
+wsg|1|WSGI_APPLICATION!27@
+-- END TREE
+-- START TREE 2
+11
+__u|4|__unicode__!11&58@__unicode__!12&42@__unicode__!13&42@__unicode__!11&50@
+and|1|andrew_id!12&43@
+dat|1|date!11&51@
+fna|1|fname!12&43@
+ip_|1|ip_addr!11&59@
+lna|1|lname!12&43@
+nam|1|name!13&43@
+num|1|number!13&43@
+stu|1|students!13&43@
+tex|2|text!11&59@text!11&51@
+use|1|user!11&51@
+-- END TREE

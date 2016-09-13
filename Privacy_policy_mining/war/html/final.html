@@ -1,0 +1,118 @@
+<!-- Highlight text area external library :  http://mistic100.github.io/jquery-highlighttextarea/examples.html-->
+<!-- sending email reference : http://stackoverflow.com/questions/271171/sending-emails-with-javascript  -->
+<!-- convert to csv reference : http://halistechnology.com/2015/05/28/use-javascript-to-export-your-data-as-csv/-->
+<!-- d3: poly.ly -->
+
+<html>
+   <head>
+       
+
+      <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+      <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+       <!-- D3.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+      <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+      <!-- Plotly.js -->
+      <script src="https://d14fo0winaifog.cloudfront.net/plotly-basic.js"></script>
+
+      <script src="../jquery.highlighttextarea.min.js"></script>
+
+      <script src="html/func.js"></script>
+
+    <link href="../jquery.highlighttextarea.css" rel="stylesheet">
+    <link href="html/ourstyle.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+
+</head>
+
+   <body>
+      <div id="header-wrapper" style="background-color:#16A085">
+        <div id="header" class="container" >
+            <h1 align="center">Privacy Policy Analysis</h1>
+        </div>
+      </div>
+    <div id="page-wrapper">
+       <div id="page" class="container" style="background-color:lightgrey">
+        <div class="title">
+            <h2>Welcome to our Analysis</h2>
+        </div>
+
+           
+                  <textarea id="text" rows="20" cols="140" class="form-control">
+
+                        Copy and paste your data here and then press go for data analysis.
+
+                        privacy, information, waive, personal, consent, accept, agree, responsible, leakage, data, collection, authorize, authorization, access, accessible, disclose, disclosure, legal, illegal, law, consent, trust, accept, agreeing, transferred, contact information, racial,  ethnic, political,  religious, permitted,  comply, compliance, regulation, share, retention, liability
+
+                  </textarea>
+
+        
+    </div>  
+    <div id="portfolio" class="container">
+      <div class="row">
+        <div class="col-md-4">
+         <button id = "submit1" class="button" onClick="countWords();"/>Total Words Count</button>
+        
+         <input name="wordcount" id="wordcount" type="text" value="Total Words" size="15">
+
+        </div>
+        <div class="col-md-2">
+          <button id = "submit2" class = "button" onClick="wordFrequency();"/>Words Frequency</button>
+        </div> 
+        <div class="col-md-2">
+          <button class="button" id="topfreq" disabled>Highlight Top
+          </button>
+        </div>
+
+        <div class="col-md-2"> 
+          <button class="button" onclick="calcSensi()">Find Keys Frequency</button>
+        </div>
+        <div class="col-md-2">  
+          <button class="button" id="key">Highlight KEYs
+          </button>
+        </div>
+       </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <button type="button" id="showcharts" class="btn btn-info btn-block" disabled>       Show Top Words Charts    
+            </button>
+        </div>
+
+        <div class="col-md-6">
+           <a href='#' id="csv" onclick='downloadCSV({ filename: "WordFrequency.csv" });' class="btn btn-info btn-block" >Download WordFrequency CSV</a>
+         </div>
+
+      </div>
+           <div class="row">
+                 <div  class="col-md-12">
+                  <h2 id="p"></h2>
+                </div>
+           </div>
+           <div id="myDiv"> </div>
+         
+          <p id="result"></p>
+          <table id="mytbl" class="table table-bordered"  border="2">  
+         </table>
+
+                  <textarea id="myText"> </textarea>
+                
+                  <button onclick="sendMail(); return false" class="btn btn-primary">Send To Manager</button>
+                
+          </div>
+
+
+    </div>
+
+
+
+
+   </body>
+
+</html>

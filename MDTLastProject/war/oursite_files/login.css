@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+/* common
+---------------------------------------------------------------------*/
+html,body {
+ height: 100%;
+}
+body{
+	height:100%;
+	background:#1f62af url(/ict/view/images/bg.jpg) center top repeat-x;
+	font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+#container{
+	max-width:1024px;
+	min-width:768px;
+	margin: 0 auto;
+}
+#contents{
+	padding:15px 20px;
+}
+
+/* SITE TOP
+-------------------------------------*/
+#gbBox{
+	height:100%;
+	min-height:100%;
+	background:url(/ict/view/images/top_bg.png) center bottom repeat-x;
+}
+body > #gbBox {
+ height: auto;
+}
+#topBox{
+	height:510px;
+	position: relative;
+}
+#topBox .title{
+	width: 843px;
+	text-align: right;
+	position: absolute;
+	top:0;right: 0;
+}
+#topBox .title h1{
+	text-align: center;
+	padding:80px 0 10px;
+}
+#topBox .title .image{
+	opacity: 0.9;
+}
+#topBox ul{
+	width: 166px;
+	position: absolute;
+	top:0;left: 0;
+}
+#topBox ul li{
+	text-align: center;
+}
+#topBox ul li a{
+	display: block;
+	color: #FFF;
+	line-height: 1.3;
+	text-decoration: none;
+}
+#topBox ul li a:hover{
+	opacity: 0.8;
+}
+#topBox ul li.login1{
+	margin-bottom: 2px;
+}
+#topBox ul li.login1 a{
+	padding:30px 0;
+	font-size: 20px;
+	font-weight: bold;
+	background: #147CB8;
+}
+#topBox ul li.login2{
+	margin-bottom: 15px;
+}
+#topBox ul li.login2 a{
+	padding:18px 0;
+	font-size: 20px;
+	font-weight: bold;
+	background: #147CB8;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+#topBox ul li.order{
+	margin-bottom: 15px;
+}
+#topBox ul li.order a{
+	padding:18px 0;
+	font-size: 20px;
+	font-weight: bold;
+	background: #589fcf;
+	border-radius: 6px;
+}
+#topBox ul li.other{
+	margin-bottom: 1px;
+}
+#topBox ul li.other a{
+	padding:10px 0;
+	font-size: 14px;
+	font-weight: bold;
+ background-color: rgba( 255, 255, 255, 0.2 );
+}
+
+
+
+/* login
+-------------------------------------*/
+#loginArea{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 550px;
+	height: 350px;
+}
+#loginArea p{
+	font-size: 17px;
+	color:#2563a8;
+	letter-spacing: -0.8px;
+}
+#loginArea table{
+	width:100%;
+	margin-top:25px;
+	border-top:1px solid #FFF;
+	border-left:1px solid #FFF;
+ background-color: rgba( 255, 255, 255, 0.55 );
+}
+#loginArea table th{
+	width:20%;
+	padding:10px;
+	border-bottom:1px solid #FFF;
+ vertical-align:middle;
+}
+#loginArea table td{
+	width:80%;
+	padding:10px;
+	border-bottom:1px solid #FFF;
+	border-right:1px solid #FFF;
+ vertical-align:middle;
+}
+
+#loginArea td input{
+	width:350px;
+	padding:10px;
+ font-size: 36px;
+ background-color: rgba( 255, 255, 255, 0 );
+ border:none;
+}
+.loginBtn{
+	margin-top: 28px;
+}
+.loginBtn input {
+	cursor:pointer;
+	font-size:0;
+	line-height:0;
+	border-style:none;
+	padding:0;
+ background-color: rgba( 255, 255, 255, 0 );
+	background-image:url(/img/b_login.png);
+	width:550px;
+	height:68px;
+}
+.loginBtn input:active {
+	background-image:url(/ict/view/images/b_login2.png);
+}
+
+.loginbox ul{
+	margin:25px 0 0 80px;
+
+}
+.loginbox ul:after{
+  content: " ";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.loginbox ul li{
+	float: left;
+	display: inline-block;
+}
+.loginbox ul li a{
+	margin-right:25px;
+	padding:1px 0 2px 25px;
+	background:url(/ict/view/images/arrow_white.png) 0 1px no-repeat;
+	color: #FFF;
+}
+
+/*
+ * エラーメッセージ、処理完了メッセージ
+ */
+span.messages {
+  color: #ff0000;
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  font-size:14px;
+}
+
+

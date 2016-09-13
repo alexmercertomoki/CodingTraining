@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+/* common
+---------------------------------------------------------------------*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 16px;
+	vertical-align: baseline;
+}
+
+body {
+	background: #1E61AF url(/ict/view/images/bg.jpg) no-repeat center top;
+	font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN",
+		Meiryo, sans-serif;
+	font-weight: 200;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+	display: block;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+blockquote,q {
+	quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none;
+}
+
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title],dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+/* table
+---------------------------------------------------------------------*/
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table.layout-table{
+	margin: 0 auto;
+	width:900px;
+	border:2px solid #147cb8;
+	word-wrap: break-word;
+	word-break:break-all;
+}
+
+table.data-table{
+	width:100%;
+	border:2px solid #147cb8;
+	word-wrap: break-word;
+	word-break:break-all;
+}
+
+table td table,
+table td table th,
+table td table td{
+	margin: 0;
+	padding : 0;
+	border: none;
+	width: auto;
+}
+
+/* form
+---------------------------------------------------------------------*/
+input,select {
+	vertical-align: middle;
+}
+
+input,textarea {
+	border: 1px solid #CCC;
+	padding: 5px;
+	font-size: inherit;
+	color: #333;
+}
+
+select {
+	border: 1px solid #CCC;
+	padding: 5px;
+	font-size: inherit;
+	color: #333;
+}
+
+input.btn{
+	padding: 7px 20px;
+	border-radius: 3px;
+	background:#147CB8;
+	color: #FFF;
+	border: none;
+	cursor: pointer;
+}
+

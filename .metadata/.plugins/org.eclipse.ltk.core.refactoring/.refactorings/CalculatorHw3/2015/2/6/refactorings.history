@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CalculatorHw3/calc/static&apos; to &apos;templates&apos;" description="Rename resource &apos;static&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="calc/static" name="templates" stamp="1422820667633" updateReferences="true"/>
+</session>

@@ -1,0 +1,9 @@
+MODULES_MANAGER_V2
+calc.__init__|/Users/mac/Documents/GitHub/bhuang/hw3/calc/__init__.py
+calc.views|/Users/mac/Documents/GitHub/bhuang/hw3/calc/views.py
+manage|/Users/mac/Documents/GitHub/bhuang/hw3/manage.py
+set.__init__|/Users/mac/Documents/GitHub/bhuang/hw3/set/__init__.py
+set.models|/Users/mac/Documents/GitHub/bhuang/hw3/set/models.py
+set.settings|/Users/mac/Documents/GitHub/bhuang/hw3/set/settings.py
+set.urls|/Users/mac/Documents/GitHub/bhuang/hw3/set/urls.py
+set.wsgi|/Users/mac/Documents/GitHub/bhuang/hw3/set/wsgi.py

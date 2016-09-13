@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>
+	test</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<!-- InitServlet -->
+	<servlet>
+		<servlet-name>InitServlet</servlet-name>
+		<servlet-class>
+			com.soft.action.InitServlet
+		</servlet-class>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+	
+	
+	<servlet>
+		<servlet-name>FirstServlet</servlet-name>
+		<servlet-class>
+			com.soft.action.FirstServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>FirstServlet</servlet-name>
+		<url-pattern>/First</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 用来控制页面跳转的Servlet -->
+	<servlet>
+		<servlet-name>ShowPageServlet</servlet-name>
+		<servlet-class>
+			com.soft.action.ShowPageServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ShowPageServlet</servlet-name>
+		<url-pattern>/ShowPage</url-pattern>
+	</servlet-mapping>	
+	
+	<!-- 显示所有用户信息 -->
+	<servlet>
+		<servlet-name>ShowUsersServlet</servlet-name>
+		<servlet-class>
+			com.soft.action.ShowUsersServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ShowUsersServlet</servlet-name>
+		<url-pattern>/ShowUsers</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>DelUserServlet</servlet-name>
+		<servlet-class>
+			com.soft.action.DelUserServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DelUserServlet</servlet-name>
+		<url-pattern>/DelUser</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 后台添加用户的Servlet -->
+	<servlet>
+		<servlet-name>AddUserServlet</servlet-name>
+		<servlet-class>
+			com.soft.action.AddUserServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>AddUserServlet</servlet-name>
+		<url-pattern>/AddUser</url-pattern>
+	</servlet-mapping>	
+	
+	
+	<servlet>
+		<servlet-name>UpdateUserServlet</servlet-name>
+		<servlet-class>
+			com.soft.action.UpdateUserServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>UpdateUserServlet</servlet-name>
+		<url-pattern>/UpdateUser</url-pattern>
+	</servlet-mapping>	
+	
+	
+	<servlet>
+		<servlet-name>DoUpdateUserServlet</servlet-name>
+		<servlet-class>
+			com.soft.action.DoUpdateUserServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DoUpdateUserServlet</servlet-name>
+		<url-pattern>/DoUpdateUser</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>RegUserServlet</servlet-name>
+		<servlet-class>
+			com.soft.action.RegUserServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>RegUserServlet</servlet-name>
+		<url-pattern>/RegUser</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>DelUserAjaxServlet</servlet-name>
+		<servlet-class>
+			com.soft.action.DelUserAjaxServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DelUserAjaxServlet</servlet-name>
+		<url-pattern>/DelUserAjax</url-pattern>
+	</servlet-mapping>		
+	
+			
+	<servlet>
+		<servlet-name>AddTopicServlet</servlet-name>
+		<servlet-class>
+			com.soft.action.AddTopicServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>AddTopicServlet</servlet-name>
+		<url-pattern>/AddTopic</url-pattern>
+	</servlet-mapping>	
+	
+	
+	<!-- ImageServlet 生成验证码的servlet -->
+	
+	<servlet>
+		<servlet-name>ImageServlet</servlet-name>
+		<servlet-class>
+			com.soft.action.ImageServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ImageServlet</servlet-name>
+		<url-pattern>/ImageServlet</url-pattern>
+	</servlet-mapping>		
+</web-app>

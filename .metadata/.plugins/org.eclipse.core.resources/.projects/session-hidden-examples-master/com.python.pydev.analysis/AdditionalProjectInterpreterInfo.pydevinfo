@@ -1,0 +1,53 @@
+-- VERSION_4
+-- START DISKCACHE
+/Users/mac/Documents/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/session-hidden-examples-master/com.python.pydev.analysis/v2_indexcache
+shared.urls|1422825325000|/Users/mac/Documents/workspace/session-hidden-examples-master/shared/urls.py
+webapps.wsgi|1422825325000|/Users/mac/Documents/workspace/session-hidden-examples-master/webapps/wsgi.py
+welcome.views|1422825325000|/Users/mac/Documents/workspace/session-hidden-examples-master/welcome/views.py
+private.views|1422825325000|/Users/mac/Documents/workspace/session-hidden-examples-master/private/views.py
+webapps.settings|1422825325000|/Users/mac/Documents/workspace/session-hidden-examples-master/webapps/settings.py
+private.urls|1422825325000|/Users/mac/Documents/workspace/session-hidden-examples-master/private/urls.py
+shared.views|1422825325000|/Users/mac/Documents/workspace/session-hidden-examples-master/shared/views.py
+hidden.views|1422825325000|/Users/mac/Documents/workspace/session-hidden-examples-master/hidden/views.py
+webapps.urls|1422825325000|/Users/mac/Documents/workspace/session-hidden-examples-master/webapps/urls.py
+-- END DISKCACHE
+-- START DICTIONARY
+9
+4=webapps.wsgi
+7=shared.urls
+2=private.views
+6=welcome.views
+3=webapps.settings
+8=private.urls
+1=shared.views
+5=hidden.views
+9=webapps.urls
+-- END DICTIONARY
+-- START TREE 1
+22
+add|2|add_item!10@add_item!18@
+all|1|ALLOWED_HOSTS!27@
+app|1|application!35@
+bas|1|BASE_DIR!27@
+dat|1|DATABASES!27@
+deb|1|DEBUG!27@
+del|3|delete_item!10@delete_item!18@delete_all!18@
+hid|1|hidden_demo!42@
+hom|3|home!10@home!50@home!18@
+ins|1|INSTALLED_APPS!27@
+lan|1|LANGUAGE_CODE!27@
+loc|1|lock!11@
+mid|1|MIDDLEWARE_CLASSES!27@
+roo|1|ROOT_URLCONF!27@
+sec|1|SECRET_KEY!27@
+sha|1|shared_list!11@
+sta|1|STATIC_URL!27@
+tem|1|TEMPLATE_DEBUG!27@
+tim|1|TIME_ZONE!27@
+url|3|urlpatterns!59@urlpatterns!67@urlpatterns!75@
+use|3|USE_L10N!27@USE_I18N!27@USE_TZ!27@
+wsg|1|WSGI_APPLICATION!27@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

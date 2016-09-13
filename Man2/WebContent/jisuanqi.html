@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>计算器示例程序</title>
+
+<script type="text/javascript" language="javascript">
+function jisuan(){
+	
+	var number = document.getElementById("number").value;
+	var number2 = document.getElementById("number2").value;
+	
+	
+	
+	var flag = document.getElementById("flag").value;
+	
+	if(flag==1){
+		document.getElementById("resval").value = Number(number)+Number(number2);
+	}
+	if(flag==2){
+		document.getElementById("resval").value = Number(number)-Number(number2);
+	}
+	if(flag==3){
+		document.getElementById("resval").value = Number(number)*Number(number2);
+	}
+	if(flag==4){
+		document.getElementById("resval").value = Number(number)/Number(number2);
+	}
+}
+</script>
+
+</head>
+<body>
+
+<table>
+	<tr>
+		<td>数值1</td>
+		<td><input type="text" name="number" id="number" value="" /></td>
+	</tr>
+	<tr>
+		<td>运算</td>
+		<td>
+			<select name="flag" id="flag" >
+				<option value="1">+</option>
+				<option value="2">-</option>
+				<option value="3">×</option>
+				<option value="4">÷</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>数值2</td>
+		<td><input type="text" name="number2" id="number2" value="" /></td>
+	</tr>
+	<tr>
+		<td colspan="5">
+			<input type="button" onclick="jisuan()" value="运算" />
+		</td>
+	</tr>
+	<tr>
+		<td>结果</td>
+		<td><input type="text" name="resval" id="resval" value="" readonly="readonly"/></td>
+	</tr>
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="6" key="DIALOG_Y_ORIGIN"/>
+		<item value="43" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+	</section>
+	<section name="EditorSelectionDialog">
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="563" key="dialogHeight"/>
+		<item value="900" key="dialogWidth"/>
+		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+		</list>
+		<list key="orderedElements">
+			<item value="org.eclipse.ui.ide.configureFilters"/>
+			<item value="org.eclipse.ui.window.preferences(preferencePageId=org.eclipse.mylyn.debug.ui.breakpoints)"/>
+			<item value="org.eclipse.ui.resourcePerspective"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.perspectives"/>
+		</list>
+		<list key="textArray">
+			<item value="filter"/>
+			<item value="my"/>
+			<item value="resou"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.wst.html.ui.internal.wizard.NewHTMLWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="com.google.gwt.eclipse.core.newWizards"/>
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
+	<section name="ShowViewDialog">
+		<item value="307" key="DIALOG_WIDTH"/>
+		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="com.android.ide.eclipse.ddms.views.LogCatView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
+		<item value="415" key="DIALOG_HEIGHT"/>
+		<item value="109" key="DIALOG_Y_ORIGIN"/>
+		<item value="458" key="DIALOG_X_ORIGIN"/>
+		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="com.android.ide.eclipse.ddms.views.category"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.jdt.internal.ui.javadocexport.JavadocWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item value="org.eclipse.m2e.core.wizards.Maven2ImportWizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.m2e"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.jdt.ui.Java"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+	</section>
+</section>

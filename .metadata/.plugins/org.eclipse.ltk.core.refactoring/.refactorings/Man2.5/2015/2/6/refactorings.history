@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;index02.html&apos; to &apos;DsLab2/src/(default package)&apos;&#x0A;- Original project: &apos;Man2.5&apos;&#x0A;- Destination element: &apos;DsLab2/src/(default package)&apos;&#x0A;- Original element: &apos;index02.html&apos;" description="Copy file" destination="=DsLab2/src&lt;" element1="WebContent/index02.html" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1423193714602" units="0" version="1.0"/>
+</session>

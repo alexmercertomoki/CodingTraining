@@ -1,0 +1,58 @@
+#calculator_pad{
+   line-height: 76px;
+   text-align: center;
+   font-size: 20px;
+   font-weight:bold;
+   width: 300px;
+   padding:12px;
+   
+}
+
+#calculator_pad #cal-show{
+   line-height :48px;
+   width: 50px;
+   text-align: right;
+   width: 260px;
+   background: white;
+   font-size: 36px;
+}
+
+#calculator_pad tbody td input{
+     background: orange;
+     line-height: 60px;
+     width: 60px;
+     border-radius: 15px;
+     font-size: 23px;
+}
+
+#calculator_pad tbody td.operator input{  
+   background: yellow;
+}
+
+#calculator_pad tbody td.backspace input{  
+   width: 270px;
+   font-size: 20px;
+   text-align: center;
+   background:grey; 
+
+}
+
+#calculator_pad tbody td input.clear{
+   	 background: #ccc; 
+}
+
+#calculator_pad tbody td input:hover{
+	background: green;
+}
+
+#calculator_pad tbody td input.clear:hover{
+   	 background: white; 
+}
+
+#calculator_pad tbody td.operator input:hover{  
+   background: blue;
+}
+
+#calculator_pad tbody td.backspace input:hover{  
+   background: #eee;
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Intro to Django Examples</title>
+</head>
+
+<body>
+    <h1>Intro to Django Examples</h1>
+
+    We have three examples (four if you count this home page, index.html):
+
+    <ol>
+        <li>
+            <a href="hello-world">Hello World</a> (no template) -- This is a most basic hello world example, that simply sends back an HttpResponse object containing the HTML we want to provide in the response.
+        </li>
+        <li>
+            <a href="hello-world-with-template">Hello World with Template</a> -- A very basic example.
+            The action (in views.py) immediately renders a templated view with empty context.
+            The view displays Hello World.
+        </li>
+        <li>
+            <a href="greet">Greet</a> -- This example checks for a name parameter in
+            the GET request.  If present, it puts the name into the context and renders a templated
+            view which says hello to the name.  It (then) prompts for a(nother) name.
+        </li>
+    </ol>
+
+</body>
+</html>
+

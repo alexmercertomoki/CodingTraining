@@ -1,0 +1,90 @@
+比如雇人：
+2500元一人
+有个急活 找临时工
+
+封装 继承 多态
+
+计算工资
+
+全职emp01+兼职emp02
+
+   List<Emp01> list=new ArrayList<Emp01>();
+
+list 放object 
+
+泛型 加固定类型 
+Integer Emp01 String
+
+可以放某类子类
+list.add（new emp01）
+
+list<? extends Emp01>   emp01类子类 T 
+list.add(new Emp01)
+
+java bean 概念 
+
+for(Emp01 e: list){
+    sum01 = sum01 + e.getSalary();
+}
+
+父类emp 
+name  salary  
+
+emp03 extends emp   兼职 
+
+list<Emp> list=new ArrayListy<Emp>();
+Emp03 em03 
+ 
+super.getSalary();
+
+
+getSalary: price * workedtime 
+
+适度，不要极端
+
+动态随机生成数据  放在txt 文本中  生成后统计
+
+员工类
+读取文件
+解析信息  
+操作 
+重新写入
+
+文件，流的形式读写。
+
+file 
+BufferedReader in =new BufferedReader (new FileReader("文件名"))
+String str;
+
+fileWrite(){
+   try{
+       BufferedWriter out =new BufferedWriter(new FileWriter("文件名",true))    // true 添加 追加
+       out.write("better \n");
+       out.close(); // 一定要  不关闭不保存 
+  }
+  ~~~
+}
+    public static void main(String[] args){
+   
+ }
+
+random   0 到小于1
+
+round 取整
+
+
+Ramdom r =new Random()
+r.nextInt();
+填100 就是0-99
+
+18-60 0-42 +18 
+nextInt()*42+18
+nextInt(42)+18
+
+100-20000
+int salary= nextInt(19900)+100;
+
+用集合，下标随机取，实现文字随机
+
+
+

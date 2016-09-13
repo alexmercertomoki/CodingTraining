@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>复制功能示例</title>
+
+<script type="text/javascript" src="js/calendar.js"></script>
+
+<script language="javascript">
+
+function copy(){
+	var source = window.document.getElementsByName("source");
+	var str = source[0].value;
+	document.f5.destination.value = str;
+}
+
+</script>
+
+
+</head>
+<body>
+
+<form action="#" method="post" name="f5">
+<table align="left" border="1px" bordercolor="#CCFFCC" width="300px">
+	<tr>
+		<td><input type="text" name="source" /></td>
+		<td><input type="button" value="复制" onclick="copy()" /></td>
+		<td><input type="text" name="destination" /></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+MODULES_MANAGER_V2
+intro.__init__|/Users/mac/Documents/workspace/django-intro-master/intro/__init__.py
+intro.admin|/Users/mac/Documents/workspace/django-intro-master/intro/admin.py
+intro.migrations.__init__|/Users/mac/Documents/workspace/django-intro-master/intro/migrations/__init__.py
+intro.models|/Users/mac/Documents/workspace/django-intro-master/intro/models.py
+intro.tests|/Users/mac/Documents/workspace/django-intro-master/intro/tests.py
+intro.views|/Users/mac/Documents/workspace/django-intro-master/intro/views.py
+manage|/Users/mac/Documents/workspace/django-intro-master/manage.py
+webapps.__init__|/Users/mac/Documents/workspace/django-intro-master/webapps/__init__.py
+webapps.settings|/Users/mac/Documents/workspace/django-intro-master/webapps/settings.py
+webapps.urls|/Users/mac/Documents/workspace/django-intro-master/webapps/urls.py
+webapps.wsgi|/Users/mac/Documents/workspace/django-intro-master/webapps/wsgi.py

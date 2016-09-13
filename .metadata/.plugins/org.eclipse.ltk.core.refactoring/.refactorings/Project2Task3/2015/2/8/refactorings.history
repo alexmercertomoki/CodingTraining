@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;client.UDPClientWithProxy&apos; to &apos;UDPClientWithDoubleArithmetic&apos;&#x0A;- Original project: &apos;Project2Task3&apos;&#x0A;- Original element: &apos;client.UDPClientWithProxy&apos;&#x0A;- Renamed element: &apos;client.UDPClientWithDoubleArithmetic&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;UDPClientWithProxy&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;client{UDPClientWithProxy.java[UDPClientWithProxy" matchStrategy="1" name="UDPClientWithDoubleArithmetic" qualified="false" references="true" similarDeclarations="false" stamp="1424061533278" textual="false" version="1.0"/>
+</session>

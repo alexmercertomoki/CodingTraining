@@ -1,0 +1,373 @@
+var globText;
+var globObj;
+
+function calcSensi() {
+    var textinput;
+
+    textinput = document.getElementById("text").value;
+    textlower = textinput.toLowerCase();
+    textclean = textlower.replace(/\n/g, " ");
+
+
+    <!-- all symbols become spaces to tokenize everything -->
+    textclean = textclean.replace(/\./g, " ");
+    textclean = textclean.replace(/\,/g, " ");
+    textclean = textclean.replace(/\"/g, " ");
+    textclean = textclean.replace(/\'/g, " ");
+    textclean = textclean.replace(/\+/g, " ");
+    textclean = textclean.replace(/\(/g, " ");
+    textclean = textclean.replace(/\)/g, " ");
+    textclean = textclean.replace(/\//g, " ");
+    textclean = textclean.replace(/\-/g, " ");
+    textclean = textclean.replace(/\:/g, " ");
+
+    <!-- remove all noise words -->
+    textclean = textclean.replace(/ and /g, " ");
+    textclean = textclean.replace(/ or /g, " ");
+    textclean = textclean.replace(/ a /g, " ");
+    textclean = textclean.replace(/ an /g, " ");
+    textclean = textclean.replace(/ the /g, " ");
+    textclean = textclean.replace(/ your /g, " ");
+    textclean = textclean.replace(/ to /g, " ");
+    textclean = textclean.replace(/ which /g, " ");
+    textclean = textclean.replace(/ of /g, " ");
+    textclean = textclean.replace(/ is /g, " ");
+    textclean = textclean.replace(/ in /g, " ");
+    textclean = textclean.replace(/ on /g, " ");
+
+
+    wordlistprimitive = textclean.split(" ");
+    
+    wordlist=[];
+    var length = wordlistprimitive.length;
+    var patt = /\w/g;
+    
+    for(var i = 0; i < length; i++) {
+    	if(wordlistprimitive[i].match(patt)) {
+    		wordlist.push(wordlistprimitive[i].join(""));
+    	}
+    }
+    
+    var words = "privacy, third party, information, waive, personal, consent, accept, agree, responsible, leakage, data, collection, authorize, authorization, access, accessible, disclose, disclosure, legal, illegal, law, consent, trust, accept, agreeing, transferred, contact information, racial,  ethnic, political,  religious, permitted, comply, compliance, regulation, share, retention, liability";
+
+    var res = words.split(", ");
+    globText = res;
+    // console.log(globText);
+    // console.log(res);
+
+    var obj = {};
+    //hasOwnProperty   
+
+    for (var i = 0; i < res.length; i++) {
+        obj[res[i]] = 0;
+    }
+
+    for (var i = 0; i < wordlist.length; i++) {
+
+        var word = wordlist[i];
+        if (obj[word] != undefined) { //0 is false  1 is true  null is false , undefined is false 
+            obj[word]++;
+        }
+
+    }
+
+
+
+    // document.getElementById("result").innerHTML = JSON.stringify(obj);
+    globObj = obj;
+    var allkeywords = JSON.stringify(obj);
+
+
+
+    // allkeywords = allkeywords.substring(1,allkeywords.length - 1);
+    allkeywords = allkeywords.replace(/\{/g, "");
+    allkeywords = allkeywords.replace(/\}/g, "");
+    allkeywords = allkeywords.replace(/\"/g, "");
+
+
+    keywordslist = allkeywords.split(",");
+    var mywordtable = document.getElementById("mytbl");
+    mywordtable.innerHTML = "";
+
+    var len = Math.ceil(keywordslist.length / 4);
+    var index = 0;
+    for (var i = 0; i < len; i++) {
+
+        var trchildnode = document.createElement("tr");
+        mywordtable.appendChild(trchildnode);
+        for (var j = 0; j < 4; j++) {
+            var tdchildnode = document.createElement("td");
+            var textnode = document.createTextNode(keywordslist[index]);
+            tdchildnode.appendChild(textnode);
+            trchildnode.appendChild(tdchildnode);
+            index++;
+        }
+
+    }
+
+}
+
+
+$(document).ready(function() {
+
+    $("#key").click(function() {
+
+        if (!globText) {
+            var words = "privacy, third party, information, waive, personal, consent, accept, agree, responsible, leakage, data, collection, authorize, authorization, access, accessible, disclose, disclosure, legal, illegal, law, consent, trust, accept, agreeing, transferred, contact information, racial,  ethnic, political,  religious, permitted, comply, compliance, regulation, share, retention, liability";
+
+            globText = words.split(", ");
+        }
+
+        // $("#text").removeAttr("style");
+        //  $("#text").animate({'backgroundColor': '#babfde'}, 100);
+        $('#text').highlightTextarea("destroy");
+        $('#text').highlightTextarea({
+            words: {
+                color: '#ADF0FF',
+                words: globText
+            },
+
+        });
+
+    });
+
+    $("#topfreq").click(function() {
+
+        //   $("#text").removeAttr("style");
+        //   $("#text").animate({'backgroundColor': '#babfde'}, 100);
+        $('#text').highlightTextarea("destroy");
+        
+        $('#text').highlightTextarea({
+            words: {
+                color: '#AFFF00',
+                words: topfreqwords
+            },
+
+        });
+    });
+
+
+    $("#showcharts").click(function() {
+
+        $("#p").text("Here is our Bar Chart: ");
+
+        var data = [{
+            type: 'bar',
+            x: axisx,
+            y: axisy,
+            orientation: 'h'
+        }];
+
+        Plotly.newPlot('myDiv', data);
+
+    });
+
+});
+
+
+// showcharts
+
+
+
+
+var topfreqwords = [];
+var axisx = [];
+var axisy = [];
+var count_array = [];
+
+function wordFrequency() {
+    var filterWords = new Array();
+    filterWords.push(" ");
+    filterWords.push("may");
+    filterWords.push("are");
+    filterWords.push("by");
+    filterWords.push("a");
+    filterWords.push("an");
+    filterWords.push("if");
+    filterWords.push("could");
+    filterWords.push("the");
+    filterWords.push("when");
+    filterWords.push("would");
+    filterWords.push("for");
+    filterWords.push("to");
+    filterWords.push("be");
+    filterWords.push("as");
+    filterWords.push("I");
+    filterWords.push("will");
+    filterWords.push("we");
+    filterWords.push("you");
+    filterWords.push("not");
+    filterWords.push("he");
+    filterWords.push("where");
+    filterWords.push("should");
+    filterWords.push("his");
+    filterWords.push("her");
+    filterWords.push("below");
+    filterWords.push("me");
+    filterWords.push("and");
+    filterWords.push("or");
+    filterWords.push("your");
+    filterWords.push("us");
+    filterWords.push("who");
+    filterWords.push("him");
+    filterWords.push("our");
+    filterWords.push("shall");
+    filterWords.push("they");
+    filterWords.push("their");
+    filterWords.push("can");
+    filterWords.push("in");
+    filterWords.push("on");
+    filterWords.push("under");
+    filterWords.push("above");
+
+    s = document.getElementById("text").value;
+    s = s.replace(/(^\s*)|(\s*$)/gi, "");
+    s = s.replace(/[ ]{2,}/gi, " ");
+    s = s.replace(/\n /, "\n");
+    s = s.replace(/\,/g, "");
+    s = s.replace(/\./g, "");
+    s = s.replace(/\;/g, "");
+
+    s = s.split(' ');
+    var remainWord = new Array();
+    for (i = 0; i < s.length; i++) {
+        if (filterWords.indexOf(s[i]) != -1) {
+            continue;
+        }
+        //document.write(s[i] + "\br");
+        remainWord.push(s[i]);
+    }
+    var res = {};
+    for (i = 0; i < remainWord.length; i++) {
+        res[remainWord[i]] = 0;
+    }
+
+    for (i = 0; i < remainWord.length; i++) {
+        res[remainWord[i]]++;
+        // document.write(res[remainWord[i]]+" "+remainWord[i]);
+    }
+    count_array = [];
+    for (var name in res) {
+        count_array.push({
+            name: name,
+            count: res[name]
+        })
+    }
+    count_array.sort(function(a, b) {
+        return b.count - a.count
+    }); // not sorted 
+
+    for (var i = 0; i < 15; i++) {
+        axisy.push(count_array[i].name);
+        axisx.push(count_array[i].count);
+    }
+
+
+    for (var i = 0; i < 15; i++) {
+        topfreqwords.push(count_array[i].name);
+    }
+
+
+
+
+    var mywordtable = document.getElementById("mytbl");
+    mywordtable.innerHTML = "";
+
+    var len = Math.ceil(count_array.length / 6);
+    var index = 0;
+    for (var i = 0; i < len; i++) {
+
+        var trchildnode = document.createElement("tr");
+        mywordtable.appendChild(trchildnode);
+        for (var j = 0; j < 6; j++) {
+            var tdchildnode = document.createElement("td");
+            var textnode;
+            if (count_array[index] != undefined) {
+                textnode = document.createTextNode(count_array[index].name + ":" + count_array[index].count);
+            } else {
+                textnode = document.createTextNode("    ");
+            }
+            tdchildnode.appendChild(textnode);
+            trchildnode.appendChild(tdchildnode);
+            index++;
+        }
+
+    }
+    document.getElementById("topfreq").disabled = false;
+    document.getElementById("showcharts").disabled = false;
+
+
+}
+
+
+
+
+function convertArrayOfObjectsToCSV(args) {
+    var result, ctr, keys, columnDelimiter, lineDelimiter, data;
+
+    data = args.data || null;
+    if (data == null || !data.length) {
+        return null;
+    }
+
+    columnDelimiter = args.columnDelimiter || ',';
+    lineDelimiter = args.lineDelimiter || '\n';
+
+    keys = Object.keys(data[0]);
+
+    result = '';
+    result += keys.join(columnDelimiter);
+    result += lineDelimiter;
+
+    data.forEach(function(item) {
+        ctr = 0;
+        keys.forEach(function(key) {
+            if (ctr > 0) result += columnDelimiter;
+
+            result += item[key];
+            ctr++;
+        });
+        result += lineDelimiter;
+    });
+
+    return result;
+}
+
+function downloadCSV(args) {
+    var data, filename, link;
+
+    var csv = convertArrayOfObjectsToCSV({
+        data: count_array
+    });
+    if (csv == null) return;
+
+    filename = args.filename || 'export.csv';
+
+    if (!csv.match(/^data:text\/csv/i)) {
+        csv = 'data:text/csv;charset=utf-8,' + csv;
+    }
+    data = encodeURI(csv);
+
+    link = document.createElement('a');
+    link.setAttribute('href', data);
+    link.setAttribute('download', filename);
+    link.click();
+}
+
+
+
+
+function countWords() {
+    s = document.getElementById("text").value;
+    s = s.replace(/(^\s*)|(\s*$)/gi, "");
+    s = s.replace(/[ ]{2,}/gi, " ");
+    s = s.replace(/\n /, "\n");
+    document.getElementById("wordcount").value = s.split(' ').length;
+}
+
+
+function sendMail() {
+    var link = "mailto:sisix@andrew.cmu.edu" + "?cc=bhuang@andrew.cmu.edu" + "&subject=" + escape("This is my subject") + "&body=" + escape(document.getElementById('myText').value);
+
+    window.location.href = link;
+}

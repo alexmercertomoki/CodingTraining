@@ -1,0 +1,43 @@
+-- VERSION_4
+-- START DISKCACHE
+/Users/mac/Documents/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/CalculatorHw3/com.python.pydev.analysis/v2_indexcache
+set.settings|1423454272000|/Users/mac/Documents/GitHub/bhuang/hw3/set/settings.py
+set.wsgi|1423454279000|/Users/mac/Documents/GitHub/bhuang/hw3/set/wsgi.py
+set.models|1422815786000|/Users/mac/Documents/GitHub/bhuang/hw3/set/models.py
+set.__init__|1423454257000|/Users/mac/Documents/GitHub/bhuang/hw3/set/__init__.py
+calc.__init__|1423454233000|/Users/mac/Documents/GitHub/bhuang/hw3/calc/__init__.py
+set.urls|1422827279000|/Users/mac/Documents/GitHub/bhuang/hw3/set/urls.py
+calc.views|1423106810000|/Users/mac/Documents/GitHub/bhuang/hw3/calc/views.py
+manage|1422819471000|/Users/mac/Documents/GitHub/bhuang/hw3/manage.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+1=set.settings
+2=set.wsgi
+4=set.urls
+3=calc.views
+-- END DICTIONARY
+-- START TREE 1
+18
+all|1|ALLOWED_HOSTS!11@
+app|1|application!19@
+bas|1|BASE_DIR!11@
+dat|1|DATABASES!11@
+deb|1|DEBUG!11@
+get|1|getNumber!26@
+ins|1|INSTALLED_APPS!11@
+lan|1|LANGUAGE_CODE!11@
+mid|1|MIDDLEWARE_CLASSES!11@
+my_|1|my_calc!26@
+roo|1|ROOT_URLCONF!11@
+sec|1|SECRET_KEY!11@
+sta|2|STATICFILES_DIRS!11@STATIC_URL!11@
+tem|1|TEMPLATE_DEBUG!11@
+tim|1|TIME_ZONE!11@
+url|1|urlpatterns!35@
+use|3|USE_I18N!11@USE_TZ!11@USE_L10N!11@
+wsg|1|WSGI_APPLICATION!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

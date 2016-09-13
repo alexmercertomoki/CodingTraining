@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>填写员工信息</title>
+
+<script type="text/javascript" src="js/calendar.js"></script>
+
+<script type="text/css">
+.alignright{
+	align:right;
+}
+
+</script>
+
+<script type="text/javascript" language="javascript">
+function check(){
+	// alert("我进入到check方法了");
+	/**
+	var name = document.f5.name.value;
+	
+	if(name.length>4){
+		alert("姓名不能超过4个字符");
+		document.f5.name.focus();
+		//document.f5.name.value = "";
+		return false;
+	}
+	
+	// radio 
+	var sex = new Array();
+	sex = document.f5.sex;
+	var sum = 0;
+	for(var i=0;i<sex.length;i++){
+		if(sex[i].checked){
+			// 说明性别被选中了
+			sum++;
+		}
+	}
+	if(sum==0){
+		alert("请选择性别!");
+		return false;
+	}
+	**/
+	// select 
+	var department = document.f5.department;
+	var depart = true;
+	for(var i=0;i<department.options.length;i++){
+		if(department.options[i].value!="" && department.options[i].selected){
+			// 选择了一个部门
+			depart = false;
+		}
+	}
+	if(depart){
+		alert("请选择部门!");
+		document.f5.department.focus();
+		return false;
+	}
+	
+}
+
+function parsetest(){
+
+	var age = "18";
+	var age2 = "18";
+    var age3 = age+age2;
+	var age3 = Number(age)+Number(age2);
+	alert(age3);
+	var age4 = "你好";
+	// alert(Number(age4));
+	
+}
+
+function showdate(){
+	// 创建Date对象
+	var today=new Date();
+	// 4位的年份
+	var y = today.getFullYear();
+	// 月份
+	var month = today.getMonth()+1; //
+	// 获取日
+	var d = today.getDate();
+	// 获取小时数
+	var h=today.getHours();
+	// 获取分钟
+	var m=today.getMinutes();
+	// 获取秒
+	var s=today.getSeconds();
+	// add a zero in front of numbers<10
+	month = checkTime(month);
+	d = checkTime(d);
+	m = checkTime(m);
+	s = checkTime(s);
+	
+	document.getElementById('txt').innerHTML=y+"-"+month+"-"+d+" "+h+":"+m+":"+s
+	
+	t=setTimeout(showdate,1000);
+	
+}
+//小于10的数字 前面补0
+function checkTime(i){
+	if (i<10){
+		i="0" + i;
+	}
+	return i;
+}
+
+</script>
+
+
+</head>
+<body>
+
+<form action="Form" method="post" name="f5" onsubmit="return check()">
+<table align="center" border="1px" bordercolor="#CCFFCC">
+	<caption>填写员工信息</caption>
+	<tr>
+		<td class="alignright" width="100px">*姓名</td>
+		<td><input type="text" name="name" value="" /></td>
+	</tr>
+	<tr>
+		<td class="alignleft">出生日期</td>
+		<td><input type="text" name="birthday" id="birthday" value=""
+			onfocus="calendar()" /></td>
+	</tr>
+	<tr>
+		<td class="alignleft">*性别</td>
+		<td><input type="radio" name="sex" value="男" />男 <input
+			type="radio" name="sex" value="女" />女</td>
+	</tr>
+	<tr>
+		<td class="alignleft">爱好</td>
+		<td><input type="checkbox" name="interest" value="旅游" />旅游<br />
+		<input type="checkbox" name="interest" value="K歌" />K歌<br />
+		<input type="checkbox" name="interest" value="游泳" />游泳<br />
+		<input type="checkbox" name="interest" value="爬山" />爬山<br />
+		<input type="checkbox" name="interest" value="海边烧烤" />海边烧烤<br />
+		</td>
+	</tr>
+	<tr>
+		<td class="alignleft">学历</td>
+		<td><select name="degree">
+			<option value="0">--请选择--</option>
+			<option value="1">大专</option>
+			<option value="2">本科</option>
+			<option value="3">硕士</option>
+			<option value="4">博士</option>
+		</select></td>
+	</tr>
+	<tr>
+		<td class="alignleft">电话</td>
+		<td><input type="text" name="tel" value="" /></td>
+	</tr>
+	<tr>
+		<td class="alignleft">Email</td>
+		<td><input type="text" name="email" value="" /></td>
+	</tr>
+	<tr>
+		<td class="alignleft">简历</td>
+		<td><textarea name="intro" cols="40" rows="10"></textarea></td>
+	</tr>
+	<tr>
+		<td class="alignleft">*所属部门</td>
+		<td><select name="department" id="department">
+			<option value="">--请选择--</option>
+			<option value="1">计算机教研组</option>
+			<option value="2">历史教研组</option>
+			<option value="3">数学教研组</option>
+			<option value="4">汉语言教研组</option>
+		</select></td>
+	</tr>
+	<tr class="aligncenter">
+		<td colspan="4"><input type="submit" name="submit" value="提交" />
+		<input type="reset" name="reset" value="重置" /></td>
+	</tr>
+	<tr>
+		<td colspan="4"><a href="#"
+			onclick="return confirm('确定要进行页面跳转吗?')">跳转</a></td>
+	</tr>
+	<tr>
+		<td colspan="4"><a href="#" onclick="parsetest()">数据类型转换示例</a></td>
+	</tr>
+	<tr>
+		<td colspan="4"><a href="#" onclick="showdate()">显示时间</a></td>
+	</tr>
+	<tr>
+		<td colspan="4"><a href="poptest.html" target="_blank" onclick="">window示例</a></td>
+	</tr>
+</table>
+<div id="txt"></div>
+</form>
+</body>
+</html>

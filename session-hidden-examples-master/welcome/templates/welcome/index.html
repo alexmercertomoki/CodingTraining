@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+      <meta charset="utf-8">
+      <title>Session & Hidden Fields Examples</title>
+</head>
+
+<body>
+
+This example include three applications:
+<ul>
+    <li><a href="/hidden">hidden</a> -- an example showing the use of hidden fields</li>
+    <li><a href="/shared">shared</a> -- a "shared" to do list example.  All users will see the same list.</li>
+    <li><a href="/private">private</a> -- a "private" to do list example.  Each browser instance will have it's own to do list.</li>
+</ul>
+
+<p>
+Note: The private to do list example uses sessions.  The default implementation of sessions in Django stores the sessions in the sqlite database.  To make this work, you will need to execute the following command to set up the database:
+    <pre><code>
+        python manage.py migrate
+    </code></pre>
+before executing:
+    <pre><code>
+        python manage.py runserver
+    </code></pre>
+</p>
+
+</body>
+</html>

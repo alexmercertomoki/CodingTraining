@@ -1,0 +1,62 @@
+-- VERSION_4
+-- START DISKCACHE
+/Users/mac/Documents/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/SocialNet/com.python.pydev.analysis/v2_indexcache
+mybbs.tests|1422815786000|/Users/mac/Documents/GitHub/bhuang/hw4/mybbs/tests.py
+mybbs.views|1423801998000|/Users/mac/Documents/GitHub/bhuang/hw4/mybbs/views.py
+mysetting.wsgi|1423464495000|/Users/mac/Documents/GitHub/bhuang/hw4/mysetting/wsgi.py
+mysetting.settings|1423671782000|/Users/mac/Documents/GitHub/bhuang/hw4/mysetting/settings.py
+mybbs.admin|1422815786000|/Users/mac/Documents/GitHub/bhuang/hw4/mybbs/admin.py
+mybbs.__init__|1422815786000|/Users/mac/Documents/GitHub/bhuang/hw4/mybbs/__init__.py
+mysetting.urls|1423797868000|/Users/mac/Documents/GitHub/bhuang/hw4/mysetting/urls.py
+mysetting.__init__|1422815786000|/Users/mac/Documents/GitHub/bhuang/hw4/mysetting/__init__.py
+mysetting.hash|1423801252000|/Users/mac/Documents/GitHub/bhuang/hw4/mysetting/hash.py
+mybbs.hash|1423801252000|/Users/mac/Documents/GitHub/bhuang/hw4/mybbs/hash.py
+mybbs.models|1423787845000|/Users/mac/Documents/GitHub/bhuang/hw4/mybbs/models.py
+manage|1423464495000|/Users/mac/Documents/GitHub/bhuang/hw4/manage.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+1=mybbs.views
+6=Item
+3=mysetting.wsgi
+2=mysetting.settings
+5=mysetting.urls
+4=mybbs.models
+-- END DICTIONARY
+-- START TREE 1
+25
+add|1|adding_comments!10@
+all|1|ALLOWED_HOSTS!19@
+app|1|application!27@
+bas|1|BASE_DIR!19@
+con|1|context!11@
+dat|1|DATABASES!19@
+deb|1|DEBUG!19@
+err|1|errors!11@
+hom|1|home_page!10@
+ins|1|INSTALLED_APPS!19@
+ite|1|Item!33@
+lan|1|LANGUAGE_CODE!19@
+log|2|login!10@logout!10@
+mid|1|MIDDLEWARE_CLASSES!19@
+pas|1|password!11@
+reg|1|register!10@
+roo|1|ROOT_URLCONF!19@
+sec|1|SECRET_KEY!19@
+sel|1|selfuserinfo!10@
+sta|1|STATIC_URL!19@
+tem|1|TEMPLATE_DEBUG!19@
+tim|1|TIME_ZONE!19@
+url|1|urlpatterns!43@
+use|6|USE_L10N!19@username!11@user!11@USE_I18N!19@USE_TZ!19@userinfo!10@
+wsg|1|WSGI_APPLICATION!19@
+-- END TREE
+-- START TREE 2
+6
+__u|1|__unicode__!6&34@
+age|1|age!6&35@
+dat|1|date!6&35@
+rea|1|realname!6&35@
+tex|1|text!6&35@
+use|1|user!6&35@
+-- END TREE

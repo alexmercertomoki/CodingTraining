@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/static/hidden/hidden.css">
+    <title>Hidden Field Example</title>
+</head>
+
+<body>
+    <form method="POST">
+        <span>What Do You Want?</span>
+        <input type="hidden" name="first" value="{{first}}">
+        <input type="hidden" name="last"  value="{{last}}">
+        <input type="text" name="what">
+        <input type="submit">
+        {% csrf_token %} 
+    </form>
+</body>
+</html>

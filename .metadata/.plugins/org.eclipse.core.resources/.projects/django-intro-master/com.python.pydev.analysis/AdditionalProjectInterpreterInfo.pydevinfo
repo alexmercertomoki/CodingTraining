@@ -1,0 +1,47 @@
+-- VERSION_4
+-- START DISKCACHE
+/Users/mac/Documents/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/django-intro-master/com.python.pydev.analysis/v2_indexcache
+webapps.__init__|1422815786000|/Users/mac/Documents/workspace/django-intro-master/webapps/__init__.py
+intro.admin|1422815786000|/Users/mac/Documents/workspace/django-intro-master/intro/admin.py
+intro.models|1422815786000|/Users/mac/Documents/workspace/django-intro-master/intro/models.py
+webapps.wsgi|1422815786000|/Users/mac/Documents/workspace/django-intro-master/webapps/wsgi.py
+webapps.settings|1422815786000|/Users/mac/Documents/workspace/django-intro-master/webapps/settings.py
+intro.tests|1422815786000|/Users/mac/Documents/workspace/django-intro-master/intro/tests.py
+intro.__init__|1422815786000|/Users/mac/Documents/workspace/django-intro-master/intro/__init__.py
+intro.views|1422816867000|/Users/mac/Documents/workspace/django-intro-master/intro/views.py
+intro.migrations.__init__|1422815786000|/Users/mac/Documents/workspace/django-intro-master/intro/migrations/__init__.py
+manage|1422816956000|/Users/mac/Documents/workspace/django-intro-master/manage.py
+webapps.urls|1422815786000|/Users/mac/Documents/workspace/django-intro-master/webapps/urls.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+2=webapps.wsgi
+1=webapps.settings
+3=intro.views
+4=webapps.urls
+-- END DICTIONARY
+-- START TREE 1
+19
+all|1|ALLOWED_HOSTS!11@
+app|1|application!19@
+bas|1|BASE_DIR!11@
+dat|1|DATABASES!11@
+deb|1|DEBUG!11@
+gre|1|greet!26@
+hel|2|hello_world_with_template!26@hello_world!26@
+hom|1|home_page!26@
+ins|1|INSTALLED_APPS!11@
+lan|1|LANGUAGE_CODE!11@
+mid|1|MIDDLEWARE_CLASSES!11@
+roo|1|ROOT_URLCONF!11@
+sec|1|SECRET_KEY!11@
+sta|1|STATIC_URL!11@
+tem|1|TEMPLATE_DEBUG!11@
+tim|1|TIME_ZONE!11@
+url|1|urlpatterns!35@
+use|3|USE_I18N!11@USE_TZ!11@USE_L10N!11@
+wsg|1|WSGI_APPLICATION!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

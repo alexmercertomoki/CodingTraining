@@ -1,0 +1,37 @@
+-- VERSION_4
+-- START DISKCACHE
+/Users/mac/Documents/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/MyCalc/com.python.pydev.analysis/v2_indexcache
+MyCalc.wsgi|1422762189000|/Users/mac/Documents/workspace/MyCalc/MyCalc/wsgi.py
+MyCalc.__init__|1422762189000|/Users/mac/Documents/workspace/MyCalc/MyCalc/__init__.py
+MyCalc.urls|1422762189000|/Users/mac/Documents/workspace/MyCalc/MyCalc/urls.py
+MyCalc.settings|1422812392000|/Users/mac/Documents/workspace/MyCalc/MyCalc/settings.py
+manage|1422762189000|/Users/mac/Documents/workspace/MyCalc/manage.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+2=MyCalc.wsgi
+3=MyCalc.urls
+1=MyCalc.settings
+-- END DICTIONARY
+-- START TREE 1
+16
+all|1|ALLOWED_HOSTS!11@
+app|1|application!19@
+bas|1|BASE_DIR!11@
+dat|1|DATABASES!11@
+deb|1|DEBUG!11@
+ins|1|INSTALLED_APPS!11@
+lan|1|LANGUAGE_CODE!11@
+mid|1|MIDDLEWARE_CLASSES!11@
+roo|1|ROOT_URLCONF!11@
+sec|1|SECRET_KEY!11@
+sta|3|STATIC_URL!11@STATICFILES_DIRS!11@STATICFILES_FINDERS!11@
+tem|2|TEMPLATES!11@TEMPLATE_DEBUG!11@
+tim|1|TIME_ZONE!11@
+url|1|urlpatterns!27@
+use|3|USE_I18N!11@USE_L10N!11@USE_TZ!11@
+wsg|1|WSGI_APPLICATION!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

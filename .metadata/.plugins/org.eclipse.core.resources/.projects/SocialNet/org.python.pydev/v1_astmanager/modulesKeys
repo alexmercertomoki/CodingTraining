@@ -1,0 +1,13 @@
+MODULES_MANAGER_V2
+manage|/Users/mac/Documents/GitHub/bhuang/hw4/manage.py
+mybbs.__init__|/Users/mac/Documents/GitHub/bhuang/hw4/mybbs/__init__.py
+mybbs.admin|/Users/mac/Documents/GitHub/bhuang/hw4/mybbs/admin.py
+mybbs.hash|/Users/mac/Documents/GitHub/bhuang/hw4/mybbs/hash.py
+mybbs.models|/Users/mac/Documents/GitHub/bhuang/hw4/mybbs/models.py
+mybbs.tests|/Users/mac/Documents/GitHub/bhuang/hw4/mybbs/tests.py
+mybbs.views|/Users/mac/Documents/GitHub/bhuang/hw4/mybbs/views.py
+mysetting.__init__|/Users/mac/Documents/GitHub/bhuang/hw4/mysetting/__init__.py
+mysetting.hash|/Users/mac/Documents/GitHub/bhuang/hw4/mysetting/hash.py
+mysetting.settings|/Users/mac/Documents/GitHub/bhuang/hw4/mysetting/settings.py
+mysetting.urls|/Users/mac/Documents/GitHub/bhuang/hw4/mysetting/urls.py
+mysetting.wsgi|/Users/mac/Documents/GitHub/bhuang/hw4/mysetting/wsgi.py

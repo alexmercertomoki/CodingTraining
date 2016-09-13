@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DsLAB2Cus/src/EchoClientTCP&apos; to &apos;EchoClientTCP.java&apos;" description="Rename resource &apos;EchoClientTCP&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/EchoClientTCP" name="EchoClientTCP.java" stamp="1423190902327" updateReferences="true"/>
+</session>
